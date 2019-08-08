@@ -1,0 +1,151 @@
+.nav-bar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 4.0em;
+    background-color: #044b42;
+    user-select: none; 
+}
+
+.nav-item {
+    float: left;
+    margin-top: 1.7em;
+}
+
+.nav-text {
+    color: #C4E7D4;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+.nav-text a {
+    padding-bottom: 0.7em;
+}
+
+.nav-text a:hover {
+    border-bottom: 3px solid #C4E7D4;
+}
+
+.nav-form button:hover {
+    box-shadow: 12px 12px 7px -3px rgba(0, 0, 0, 0.75);
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #C4E7D4;
+}
+
+.nav-form {
+    float: right;
+}
+
+.nav-form button {
+    border: none;
+    background-color: #C4E7D4;
+    color: #044b42;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 15px 0 0;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    border-radius: 2%;
+}
+
+.nav-form button:focus {
+    outline: none;
+}
+
+.first-sight {
+    margin: 0;
+    background-image: url("../imgs/background4k.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F0F2E8;
+    border-radius: 15px;
+}
+
+.pump-up {
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    padding: 20px;
+    margin: 0;
+}
+
+.highlight {
+    color: #016FB9;
+}
+
+.divide-line {
+    width: 90%;
+    padding: 0 0 2px 20px;
+    margin-left: 20px; 
+    background-color: #BCAB79;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+}
+
+.paragraph p:nth-of-type(1) {
+    padding-left: 5px;
+    border-left: 3px solid #016FB9;
+}
+
+.feedback {
+    width: 45%;
+    background: #F0F2E8;
+    margin-left: 20px; 
+    float: left;
+    padding: 5px 5px 0 0;
+    border-radius: 15px;
+}
+
+.feedback ul { 
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0 0 8px 8px;
+}
+
+.feedback ul li {
+    padding: 5px 8px 5px 10px;
+    color: #016FB9;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+.feedback ul li:nth-child(odd) {
+    background-color: #c2c2c286;
+}
+
+.about-me {
+    width: 80%;
+    float: left;
+}
+
+.fb-image {
+    padding: 10px;
+}
+
+.feedback img {
+    width: 20%;
+    float: right;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
